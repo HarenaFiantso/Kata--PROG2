@@ -1,4 +1,4 @@
-public class Kata {
+public class FindIndex {
     public static int findEvenIndex(int[] arr) {
         int leftSum = 0;
         int rightSum = 0;
