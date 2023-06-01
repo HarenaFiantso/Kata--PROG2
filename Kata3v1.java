@@ -57,9 +57,6 @@ public class Kata3v1 {
         double averageScore = calculateAverage(averageScores);
         double medianScore = calculateMedian(averageScores);
 
-        System.out.println(minScore);
-        System.out.println(averageScore);
-        System.out.println(medianScore);
-        System.out.println(maxScore);
+        System.out.println(Arrays.asList(minScore, averageScore, medianScore, maxScore));
     }
 }
